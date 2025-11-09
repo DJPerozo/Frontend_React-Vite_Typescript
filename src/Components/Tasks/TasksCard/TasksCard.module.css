@@ -1,0 +1,84 @@
+.tasksCart {
+    box-shadow: 5px 5px 5px 5px #00000070;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 50px 10px 10px 10px;
+    height: 250px;
+    transition: all 0.7s;
+    overflow: hidden;
+}
+
+.tasksCart:hover{
+    transform: scale(1.1);
+    outline: 1px solid #fffefe3f;
+    border-radius: 0 0 0 0;
+}
+
+
+.status {
+    padding: 2px;
+    background: linear-gradient(#532c00, #00000093) ;
+
+    p{
+        color: #fff;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.tasksContent{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+.decription{
+    margin-top: 5px;
+}
+.decription h3{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.decription p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+
+.actions{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+.linkEdit{
+    text-decoration: none;
+    color: #ffffff;
+}
+.linkEdit:hover{
+    color: #ffffffb6;
+}
+.actions button{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: #f37777;
+    font-size: 12px;
+    font-weight: bold;
+    background: #fff6f636;
+    cursor: pointer;
+    
+}
+

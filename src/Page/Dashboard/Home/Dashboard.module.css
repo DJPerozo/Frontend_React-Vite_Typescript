@@ -1,0 +1,113 @@
+
+
+h2{
+    font-size:  50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.projectContainer{
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+
+.projectArticle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projectCart{
+    background: transparent;
+    backdrop-filter: blur(7px);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px 0 #3a3a3a;
+    transition: all 0.7s;
+}
+.projectCart:hover{
+    transform: scale(1.1);
+}
+
+.projectCart h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(186, 186, 199, 0.8);
+    text-align: left;
+}
+.projectCart h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: left;
+}
+.projectCart p{
+    font-size: 16px;
+    text-align: left;
+}
+
+.navProjects{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+            
+    .Link{
+        text-decoration: none;
+        color: #fff;                  
+    }
+    .Link:hover{
+        color: rgb(202, 203, 204);
+    }
+
+
+    button{
+        padding: 8px;
+        border-radius: 10px;
+        border: none;
+        color: #f37777;
+        font-size: 17px;
+        font-weight: bold;
+        background: #fff6f636;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 700px){
+    .projectCart {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+
+
+.buttonUptask{
+    padding: 10px 15px;
+    background: linear-gradient(#532c00, #0000005e) ;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.buttonUptask .Link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}

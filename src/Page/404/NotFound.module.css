@@ -1,0 +1,39 @@
+.notFoundContainer{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#000, #3d3c3c)
+}
+
+.contentNotfound{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+
+    h3{
+        font-size: 60px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    p{
+        font-size: 20px;
+        color: #fff;
+    }
+
+}
+
+.contentNotfound .Link{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#5f3a0296, #000);
+}
+.contentNotfound .Link:hover{
+    background: linear-gradient(#000, #5f3a0296);
+}

@@ -1,0 +1,128 @@
+
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.form{
+    width: 400px;
+    margin: 0 auto;
+    background: #0202021a;
+    padding: 20px 20px;
+    border-radius: 50px 10px 10px 10px;
+}
+
+
+.form .label{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.form .input{
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(#00000011, #75757562);
+    border: none;
+    border-bottom: 1px solid #dad8d8;
+    border-radius: 15px;
+    outline: none;
+    color: #fff;
+}
+.form .input::placeholder{
+    color: #fff;
+}
+
+
+.form .divContainer{
+    margin-top: 40px;
+}
+
+
+.buttonAuth{
+    margin-top: 40px;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(#8a5300,#080808);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonAuth:hover{
+    background: linear-gradient(#080808, #8a5300);
+}
+
+
+@media (max-width: 1000px) {
+    .form{
+        width: 400px;
+        margin: 0 auto;
+        border-radius: 50px 10px 10px 10px;
+        padding: 40px 20px
+    }
+    .form .input{
+        padding: 10px;
+
+    }
+    .form .divContainer{
+        margin-top: 40px;
+    }
+    .buttonAuth{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .form{
+        width: 300px;
+        margin: 0 auto;
+        border-radius: 50px 10px 10px 10px;
+        padding: 40px 20px
+    }
+    .form .input{
+        padding: 10px;
+
+    }
+    .form .divContainer{
+        margin-top: 40px;
+    }
+    .buttonAuth{
+        margin-top: 40px;
+    }
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+}
+.link:hover{
+    color: #999797;
+}
+
+
+

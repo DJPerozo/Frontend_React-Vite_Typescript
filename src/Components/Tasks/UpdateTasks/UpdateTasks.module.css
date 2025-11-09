@@ -1,0 +1,35 @@
+.seccionContainer{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.seccionContainer article{
+    max-width: 600px;
+    margin: 0 auto;
+    background: #00000060;
+    padding: 30px;
+    border-radius: 50px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+.from .buttonForm{
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #c03c145b;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+.from .buttonForm:hover{
+    background: #582a0557;
+}

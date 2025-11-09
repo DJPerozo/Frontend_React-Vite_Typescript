@@ -1,0 +1,26 @@
+.projectDetailsTitle{
+    font-size:  50px;
+    font-weight: bold;
+    color: #ffffff7a;
+}
+
+.projectDetailsDescription{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media (max-width: 700px) {
+    .section {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
