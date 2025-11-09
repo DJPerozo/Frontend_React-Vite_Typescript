@@ -1,2 +1,3 @@
-# Frontend_Resct-Vite_Typescript
+# Frontend_React-Vite_Typescript
 Frontend Uptask react+vite typescrip
+
